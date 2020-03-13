@@ -42,8 +42,8 @@ Upcoming features:
 
 - Heartbeat detection
 - Session Review chart 
-- UI to be more fluid
-- Rethink data points and restructure session accordingly
+- UI overhaul(clearer session experience, line interface with understandable experience)
+- Rethink data points and restructure session accordingly(testing)
 - Complication and notication input forms to log distractions
 - Run app in background to allow truly minimal involvement interactions (watchos 6)
 
