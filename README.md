@@ -1,4 +1,5 @@
 # Focused: WatchOS 6 & SwiftUI  :watch: 
+![alt text](https://pbs.twimg.com/media/ETBr_zYWsAIK4Al?format=jpg&name=medium)
 #### SwiftUI has been growing as a framework and watchOS 6 brings the possibility of standalone applications like Focused.
   
   
