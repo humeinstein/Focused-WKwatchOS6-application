@@ -4,7 +4,7 @@
   
 ## What is the focus?  
   
-Focused is in the early stages of understanding short term attention span. Distractions in short working periods can be a deterrent to success. As the founder of this idea I wanted to create a way to log the context of my distractions along with various data points to detect potential patterns. My belief is with data alone, one could understand which factors are hindering their performance. This would allow modifications to work environments, study habits, etc-etc. 
+Focused is in the early stages of understanding short term attention span. Distractions in short working periods can be a deterrent to success. With this in mind personally, I wanted to create a way to log the context of my distractions along with various data points to detect potential patterns. My belief is with data alone, one could understand which factors are hindering their performance. This would allow modifications to work environments, study habits, etc-etc. 
   
   
   
