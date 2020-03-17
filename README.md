@@ -19,8 +19,8 @@ App Store V1(Beta): Projected August 2020
 Open Xcode and use Repository URL when prompted to open exisiting project.
 ```  
 
-![alt text](https://imgur.com/fSRlM5e)
-![alt text](https://imgur.com/yKFWFty)
+![alt text](https://i.imgur.com/yKFWFty.png)
+![alt text](https://i.imgur.com/yKFWFty.png)
 
   
 ### Details  
