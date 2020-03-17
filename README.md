@@ -54,6 +54,45 @@ Upcoming features:
 - Complication and notication input forms to log distractions
 - Run app in background to allow truly minimal involvement interactions (watchos 6)
 
+<section id="testimonials" class="section testimonials no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <div class="col-md-6">
+                                <div class="avatar">
+                                    <img src="images/testimonial-1.jpg" alt="" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <blockquote>
+                                    <p>"Focused gave me the ability to see my distractions were all stemming from my husband. After leaving him I have had 3 promotions and a new man!"
+                                    </p>
+                                    <cite class="author">Susan Sims, Success Client</cite>
+                                </blockquote>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col-md-6">
+                                <div class="avatar">
+                                    <img src="images/testimonial-2.jpg" alt="" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <blockquote>
+                                    <p>"My co-workers interrupted me 507 times in the span of a month! My boss agreed to let my work remote and I have seen drastic increase in my productivity!"
+                                    </p>
+                                    <cite class="author">Marco Rubios, Gold analyst</cite>
+                                </blockquote>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!-- flexslider -->
+            </div>
+        </div>
+    </section><!-- testimonials -->
+
 
 ## Authors
 
