@@ -20,7 +20,7 @@ Open Xcode and use Repository URL when prompted to open exisiting project.
 ```  
 ## Live session dashboard
 
-<img src="https://i.imgur.com/fSRlM5e.png" width="250">
+<img src="https://i.imgur.com/fSRlM5e.png" width="250" align="center">
 
 ## and weekly charts
 
