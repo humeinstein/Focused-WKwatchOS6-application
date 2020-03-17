@@ -18,9 +18,13 @@ App Store V1(Beta): Projected August 2020
 ```  
 Open Xcode and use Repository URL when prompted to open exisiting project.
 ```  
+## Live session dashboard
 
-![alt text](https://i.imgur.com/fSRlM5e.png)
-![alt text](https://i.imgur.com/yKFWFty.png)
+![alt text](https://i.imgur.com/fSRlM5e.png =250x250)
+
+## and weekly charts
+
+![alt text](https://i.imgur.com/yKFWFty.png =250x250)
 
   
 ### Details  
