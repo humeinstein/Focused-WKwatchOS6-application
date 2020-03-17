@@ -25,6 +25,8 @@ struct sessionView: View {
     
     //MAKE TOGGLE BASED ON LIVE SESSION INITATION
     @State private var inLiveSession = false
+    
+    //sessionvar
     @State public var coworkerCount = 0
     @State public var familyFriendCount = 0
     @State public var phoneWebSocialCount = 0
@@ -34,8 +36,14 @@ struct sessionView: View {
     @State private var locationSelection = 0
     @State private var durationSelection = 1
     @State public var distractionCount = 0
+    
+    //time
     @State var timeRemaining = 3200
+    
+    //dataarrays
     @State public var timesDistracted = [0]
+    @State public var catDistracted = [""]
+    
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
        var body: some View {
@@ -124,8 +132,9 @@ struct sessionView: View {
                               Button(action: {
                                 self.coworkerCount += 1
                                 self.distractionCount += 1
-                                self.timesDistracted.append(1)
+                                self.catDistracted.append("coWo")
                                 self.timesDistracted.append(Int(self.timeRemaining))
+                                print(self.catDistracted)
                                 print(self.timesDistracted)
                               } ) {
                                 HStack {
@@ -141,8 +150,10 @@ struct sessionView: View {
                               Button(action: {
                                 self.familyFriendCount += 1
                                 self.distractionCount += 1
-                                self.timesDistracted.append(1)
+                                self.catDistracted.append("FaFr")
                                 self.timesDistracted.append(Int(self.timeRemaining))
+                                print(self.catDistracted)
+                                print(self.timesDistracted)
                               }) {
                                 HStack {
                                     Text("Family/Friend")
@@ -154,8 +165,9 @@ struct sessionView: View {
                               Button(action: {
                                 self.phoneWebSocialCount += 1
                                 self.distractionCount += 1
-                                self.timesDistracted.append(2)
+                                self.catDistracted.append("Phon")
                                 self.timesDistracted.append(Int(self.timeRemaining))
+                                print(self.catDistracted)
                                 print(self.timesDistracted)
                               }) {
                                 HStack {
@@ -168,8 +180,10 @@ struct sessionView: View {
                               Button(action: {
                                 self.randomWorkAssignment += 1
                                 self.distractionCount += 1
-                                self.timesDistracted.append(3)
+                                self.catDistracted.append("WoTa")
                                 self.timesDistracted.append(Int(self.timeRemaining))
+                                print(self.catDistracted)
+                                print(self.timesDistracted)
                               }) {
                                 HStack {
                                     Text("Unplanned priority task")
@@ -181,8 +195,10 @@ struct sessionView: View {
                               Button(action: {
                                 self.meetingCount += 1
                                 self.distractionCount += 1
-                                self.timesDistracted.append(4)
+                                self.catDistracted.append("Misc")
                                 self.timesDistracted.append(Int(self.timeRemaining))
+                                print(self.catDistracted)
+                                print(self.timesDistracted)
                               }) {
                                 HStack {
                                     Text("Misc")
@@ -195,8 +211,10 @@ struct sessionView: View {
                               Button(action: {
                                 self.headSpaceCount += 1
                                 self.distractionCount += 1
-                                self.timesDistracted.append(5)
+                                self.catDistracted.append("head")
                                 self.timesDistracted.append(Int(self.timeRemaining))
+                                print(self.catDistracted)
+                                print(self.timesDistracted)
                               }) {
                                 HStack {
                                     Text("headspace")
