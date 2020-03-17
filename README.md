@@ -54,6 +54,7 @@ Upcoming features:
 - Complication and notication input forms to log distractions
 - Run app in background to allow truly minimal involvement interactions (watchos 6)
 
+## Testimonials
 <section id="testimonials" class="section testimonials no-padding">
         <div class="container-fluid">
             <div class="row no-gutter">
